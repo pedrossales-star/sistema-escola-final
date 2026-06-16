@@ -110,18 +110,18 @@ if __name__ == "__main__":
     print("Divisão 10/2:", dividir(10, 2))
     print("Divisão 5/0:", dividir(5, 0))
 
-    # ETAPA 2 - Descomente conforme for adicionando as funções
-    # print("\n=== CADASTRO DE ALUNO ===")
-    # aluno = cadastrar_aluno("Ana Lima", "DS23", 17)
-    # exibir_aluno(aluno)
-    # media = calcular_media([7, 8, 9, 6])
-    # print("Média:", media)
-    # print("Aprovado:", verificar_aprovacao(media))
-    # print("E-mail:", gerar_email("Ana Lima", "DS23"))
-    # relatorio_aluno(aluno)
+  
+     print("\n=== CADASTRO DE ALUNO ===")
+     aluno = cadastrar_aluno("Ana Lima", "DS23", 17)
+     exibir_aluno(aluno)
+     media = calcular_media([7, 8, 9, 6])
+     print("Média:", media)
+     print("Aprovado:", verificar_aprovacao(media))
+     print("E-mail:", gerar_email("Ana Lima", "DS23"))
+     relatorio_aluno(aluno)
 
     # ETAPA 3 - Descomente após criar a branch de melhorias
-    # print("\n=== SITUAÇÃO FINAL ===")
-    # freq = calcular_frequencia(40, 6)
-    # print("Frequência:", freq)
-    # print("Situação:", situacao_final(media, freq))
+     print("\n=== SITUAÇÃO FINAL ===")
+     freq = calcular_frequencia(40, 6)
+     print("Frequência:", freq)
+     print("Situação:", situacao_final(media, freq))
